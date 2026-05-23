@@ -31,6 +31,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   overflow-x: hidden;
+  min-width: 320px;
 }
 
 /* ---- SCROLLBAR ---- */
@@ -649,10 +650,12 @@ footer {
 
 /* Page hero (non-home pages) */
 .page-hero {
-  padding: 140px 2rem 60px;
+  padding: 140px 4rem 60px;
   max-width: 1200px;
   margin: 0 auto;
   animation: fadeUp 0.8s ease both;
+  box-sizing: border-box;
+  width: 100%;
 }
 .page-hero h1 {
   font-family: var(--font-display);
